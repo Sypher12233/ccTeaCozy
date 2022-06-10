@@ -31,7 +31,7 @@ header{
   margin: 0px auto;
   height: 700px;
   width: 1300px;
-  background-image: url("./resources/images/img-locations-background.jpg");
+  background-image: url(/resources/images/img-mission-background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -89,8 +89,8 @@ header{
   height: 550px;
   width: 1200px;
   margin: auto;
-  background-image: url(./resources/images/img-locations-background.jpg);
-  background-position:top;
+  background-image: url(/resources/images/img-locations-background.jpg);
+  background-position: top;
 }
 
 .location h1{
