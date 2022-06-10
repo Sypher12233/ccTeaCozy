@@ -1,0 +1,132 @@
+*{
+  font-family: Helvetica;
+  color: seashell;
+  background-color: #000000;
+}
+
+header{
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.nav img{
+  position: absolute;
+  left: 0%;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.nav p{
+  text-decoration: underline;
+  display: inline;
+  font-size: 22px;
+  margin: auto 10px;
+}
+
+.mainImage{
+  position: relative;
+  margin: 0px auto;
+  height: 700px;
+  width: 1300px;
+  background-image: url(/ccChallengeProjects/ccTeaCozy/resources/images/img-mission-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.mainText{
+  position: absolute;
+  text-align: center;
+  height: 100px;
+  width: 1300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+.mainText h2{
+  font-size: 33px;
+  margin-top: 0;
+}
+
+.mainText h4{
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.teaTypes{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photos{  /* flex container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images img{  /* flex item */
+  height: 200px;
+  width: 300px;
+}
+
+.images{
+  margin: auto 16px;
+}
+
+.images p{
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.location{
+  border: 1px solid black;
+  height: 550px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(/ccChallengeProjects/ccTeaCozy/resources/images/img-locations-background.jpg);
+  background-position:top;
+}
+
+.location h1{
+  text-align: center;
+  margin-top: 70px;
+  background-color: unset;
+}
+
+.mini{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: unset;
+}
+
+.box{
+  display: inline-block;
+  width: 300px;
+  height: 275px;
+  opacity: 1;
+  text-align: center;
+  font-size: 22px;
+}
+
+.box p{
+  margin: 35px auto;
+}
+
+.contact{
+  height: 200px;
+  text-align: center;
+  font-size: 22px;
+}
+
+footer{
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20px;
+}
